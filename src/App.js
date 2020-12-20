@@ -77,8 +77,12 @@ export default function App() {
       </div>
       <footer>
         &lt;/&gt; by{" "}
-        <a target="_blank" rel="noreferrer" href="https://akshayr.netlify.app">
-          Akshay
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://manishsom021100.netlify.app"
+        >
+          Manish
         </a>
       </footer>
     </div>
