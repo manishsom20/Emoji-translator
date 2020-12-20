@@ -1,4 +1,72 @@
 .App {
   font-family: sans-serif;
+  background: rgb(100, 93, 93);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-container {
+  max-width: 480px;
+  padding: 20px 10px;
+}
+.app-content {
+  min-height: calc(100vh - 39px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 30px;
+}
+hr {
+  border-color: #ccc;
+  margin: 10px 0px;
+}
+
+input {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 4px;
+  margin-top: 5px;
+}
+.emoji-item {
+  font-size: 2.5rem;
+  margin-right: 15px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all ease 0.35s;
+}
+.emoji-item:hover {
+  background: rgba(94, 91, 91, 0.7);
+}
+
+footer {
+  width: 100vw;
+  padding: 10px;
+  background: #111;
   text-align: center;
+}
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+footer a:hover {
+  color: orange;
+}
+/* utilities */
+.mb-20 {
+  margin-bottom: 20px;
+}
+.text-gray {
+  color: #aaa;
 }
